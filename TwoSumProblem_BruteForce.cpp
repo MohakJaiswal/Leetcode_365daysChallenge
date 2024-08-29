@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution { //nearly 200+ ms
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         int n = nums.size();
@@ -22,5 +22,5 @@ public:
         return {};
     }
 };
-// @lc code=end
+// @lc code=end 
 
